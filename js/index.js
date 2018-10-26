@@ -1,7 +1,8 @@
-function quadraticEquation() {
 const a = prompt('Enter a');
 const b = prompt('Enter b');
 const c = prompt('Enter c');
+
+function quadraticEquation() {
 const discr = (b * b) - 4 * (a * c);
 alert('discr = ' + discr);
 const sqrDiscr = Math.sqrt(discr);
